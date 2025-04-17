@@ -5,8 +5,8 @@
 package netparams
 
 import (
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // Params is used to group parameters for various networks such as the main

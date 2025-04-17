@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
 )
 
 // errSubTestFail is used to signal that a sub test returned false.

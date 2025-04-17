@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
 )
 
 var (

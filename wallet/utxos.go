@@ -9,12 +9,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcd/ltcutil/psbt"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
+	"github.com/ZorkNetwork/zorkd/ltcutil/psbt"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 var (

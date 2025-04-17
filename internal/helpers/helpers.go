@@ -7,8 +7,8 @@
 package helpers
 
 import (
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

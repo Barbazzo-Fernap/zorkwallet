@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
 )
 
 const (
@@ -2398,9 +2398,10 @@ func putBirthday(ns walletdb.ReadWriteBucket, t time.Time) error {
 // FetchBirthdayBlock retrieves the birthday block from the database.
 //
 // The block is serialized as follows:
-//   [0:4]   block height
-//   [4:36]  block hash
-//   [36:44] block timestamp
+//
+//	[0:4]   block height
+//	[4:36]  block hash
+//	[36:44] block timestamp
 func FetchBirthdayBlock(ns walletdb.ReadBucket) (BlockStamp, error) {
 	var block BlockStamp
 
@@ -2438,9 +2439,10 @@ func DeleteBirthdayBlock(ns walletdb.ReadWriteBucket) error {
 // PutBirthdayBlock stores the provided birthday block to the database.
 //
 // The block is serialized as follows:
-//   [0:4]   block height
-//   [4:36]  block hash
-//   [36:44] block timestamp
+//
+//	[0:4]   block height
+//	[4:36]  block hash
+//	[36:44] block timestamp
 //
 // NOTE: This does not alter the birthday block verification state.
 func PutBirthdayBlock(ns walletdb.ReadWriteBucket, block BlockStamp) error {

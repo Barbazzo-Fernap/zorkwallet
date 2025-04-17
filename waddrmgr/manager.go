@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcwallet/internal/zero"
-	"github.com/ltcsuite/ltcwallet/snacl"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/zero"
+	"github.com/Barbazzo-Fernap/zorkwallet/snacl"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
 	"github.com/ltcsuite/neutrino/cache/lru"
 )
 

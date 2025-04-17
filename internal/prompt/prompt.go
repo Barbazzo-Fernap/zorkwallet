@@ -15,8 +15,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcwallet/internal/legacy/keystore"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/legacy/keystore"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
 	"golang.org/x/term"
 )
 

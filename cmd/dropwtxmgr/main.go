@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	_ "github.com/Barbazzo-Fernap/zorkwallet/walletdb/bdb"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
 	"github.com/jessevdk/go-flags"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcwallet/wallet"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	_ "github.com/ltcsuite/ltcwallet/walletdb/bdb"
 )
 
 const defaultNet = "mainnet"

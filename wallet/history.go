@@ -7,10 +7,10 @@ package wallet
 import (
 	"fmt"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	"github.com/ltcsuite/ltcwallet/wtxmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/wtxmgr"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
 )
 
 var (

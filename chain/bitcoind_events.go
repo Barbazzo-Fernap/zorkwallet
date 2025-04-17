@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/rpcclient"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/rpcclient"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // BitcoindEvents is the interface that must be satisfied by any type that

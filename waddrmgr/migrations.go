@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	"github.com/ltcsuite/ltcwallet/walletdb/migration"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb/migration"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
 )
 
 // versions is a list of the different database versions. The last entry should

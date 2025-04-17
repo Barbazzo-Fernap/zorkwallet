@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/ltcsuite/ltcwallet/internal/zero"
+	. "github.com/Barbazzo-Fernap/zorkwallet/internal/zero"
 )
 
 func makeOneBytes(n int) []byte {

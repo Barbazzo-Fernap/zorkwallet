@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	_ "github.com/ltcsuite/ltcwallet/walletdb/bdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	_ "github.com/Barbazzo-Fernap/zorkwallet/walletdb/bdb"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
 )
 
 var (

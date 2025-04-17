@@ -24,15 +24,15 @@ import (
 	// consider vendoring this deprecated ripemd160 package
 	"golang.org/x/crypto/ripemd160" // nolint:staticcheck
 
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/legacy/rename"
+	"github.com/ZorkNetwork/zorkd/btcec"
+	"github.com/ZorkNetwork/zorkd/btcec/ecdsa"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/ecdsa"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/internal/legacy/rename"
 )
 
 const (

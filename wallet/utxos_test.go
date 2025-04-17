@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // TestFetchInputInfo checks that the wallet can gather information about an

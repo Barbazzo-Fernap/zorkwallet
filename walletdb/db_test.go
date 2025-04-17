@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	_ "github.com/ltcsuite/ltcwallet/walletdb/bdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	_ "github.com/Barbazzo-Fernap/zorkwallet/walletdb/bdb"
 )
 
 var (

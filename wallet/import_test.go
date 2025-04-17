@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
+	"github.com/ZorkNetwork/zorkd/txscript"
 	"github.com/stretchr/testify/require"
 )
 

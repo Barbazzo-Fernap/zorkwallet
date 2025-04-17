@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/integration/rpctest"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/rpcclient"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/btcec"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/integration/rpctest"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/rpcclient"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 	"github.com/stretchr/testify/require"
 )
 

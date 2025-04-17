@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/ltcsuite/lnd/ticker"
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/rpcclient"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/btcjson"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/rpcclient"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 const (

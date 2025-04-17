@@ -9,15 +9,15 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ltcsuite/ltcwallet/wallet/txrules"
-	"github.com/ltcsuite/ltcwallet/wallet/txsizes"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txrules"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txsizes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/psbt"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil/psbt"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 var (

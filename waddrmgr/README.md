@@ -42,21 +42,21 @@ report.  Package waddrmgr is licensed under the liberal ISC license.
 
 ## Documentation
 
-[![GoDoc](https://godoc.org/github.com/ltcsuite/ltcwallet/waddrmgr?status.png)]
-(http://godoc.org/github.com/ltcsuite/ltcwallet/waddrmgr)
+[![GoDoc](https://godoc.org/github.com/Barbazzo-Fernap/zorkwallet/waddrmgr?status.png)]
+(http://godoc.org/github.com/Barbazzo-Fernap/zorkwallet/waddrmgr)
 
 Full `go doc` style documentation for the project can be viewed online without
 installing this package by using the GoDoc site here:
-http://godoc.org/github.com/ltcsuite/ltcwallet/waddrmgr
+http://godoc.org/github.com/Barbazzo-Fernap/zorkwallet/waddrmgr
 
 You can also view the documentation locally once the package is installed with
 the `godoc` tool by running `godoc -http=":6060"` and pointing your browser to
-http://localhost:6060/pkg/github.com/ltcsuite/ltcwallet/waddrmgr
+http://localhost:6060/pkg/github.com/Barbazzo-Fernap/zorkwallet/waddrmgr
 
 ## Installation
 
 ```bash
-$ go get github.com/ltcsuite/ltcwallet/waddrmgr
+$ go get github.com/Barbazzo-Fernap/zorkwallet/waddrmgr
 ```
 
 Package waddrmgr is licensed under the [copyfree](http://copyfree.org) ISC

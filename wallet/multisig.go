@@ -8,10 +8,10 @@ package wallet
 import (
 	"errors"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/txscript"
 )
 
 // MakeMultiSigScript creates a multi-signature script that can be redeemed with

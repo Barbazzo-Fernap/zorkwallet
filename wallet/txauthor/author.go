@@ -8,12 +8,12 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/wallet/txrules"
-	"github.com/ltcsuite/ltcwallet/wallet/txsizes"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txrules"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txsizes"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

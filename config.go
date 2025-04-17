@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/cfgutil"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/legacy/keystore"
+	"github.com/Barbazzo-Fernap/zorkwallet/netparams"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcwallet/internal/cfgutil"
-	"github.com/ltcsuite/ltcwallet/internal/legacy/keystore"
-	"github.com/ltcsuite/ltcwallet/netparams"
-	"github.com/ltcsuite/ltcwallet/wallet"
 	"github.com/ltcsuite/neutrino"
 )
 

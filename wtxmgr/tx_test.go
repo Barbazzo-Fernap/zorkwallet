@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	_ "github.com/Barbazzo-Fernap/zorkwallet/walletdb/bdb"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/wire"
 	"github.com/ltcsuite/lnd/clock"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	_ "github.com/ltcsuite/ltcwallet/walletdb/bdb"
 )
 
 // Received transaction output for mainnet outpoint

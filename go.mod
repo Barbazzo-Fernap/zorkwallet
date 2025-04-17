@@ -1,4 +1,4 @@
-module github.com/ltcsuite/ltcwallet
+module github.com/Barbazzo-Fernap/zorkwallet
 
 require (
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
@@ -10,16 +10,16 @@ require (
 	github.com/lightninglabs/gozmq v0.0.0-20191113021534-d20a764486bf
 	github.com/ltcsuite/lnd/ticker v1.1.0
 	github.com/ltcsuite/lnd/tlv v1.1.1
-	github.com/ltcsuite/ltcd v0.23.5
-	github.com/ltcsuite/ltcd/btcec/v2 v2.3.2
-	github.com/ltcsuite/ltcd/chaincfg/chainhash v1.0.2
-	github.com/ltcsuite/ltcd/ltcutil v1.1.3
-	github.com/ltcsuite/ltcd/ltcutil/psbt v1.1.8
-	github.com/ltcsuite/ltcwallet/wallet/txauthor v1.3.2
-	github.com/ltcsuite/ltcwallet/wallet/txrules v1.2.0
-	github.com/ltcsuite/ltcwallet/wallet/txsizes v1.2.3
-	github.com/ltcsuite/ltcwallet/walletdb v1.4.0
-	github.com/ltcsuite/ltcwallet/wtxmgr v1.5.0
+	github.com/ZorkNetwork/zorkd v0.23.5
+	github.com/ZorkNetwork/zorkd/btcec v0.0.0-20230926160000-1c2f3a4b5d7e
+	github.com/ZorkNetwork/zorkd/chaincfg/chainhash v0.0.0-20230926160000-1c2f3a4b5d7e
+	github.com/ZorkNetwork/zorkd/ltcutil v0.0.0-20230926160000-1c2f3a4b5d7e
+	github.com/ZorkNetwork/zorkd/ltcutil/psbt v0.0.0-20230926160000-1c2f3a4b5d7e
+	github.com/Barbazzo-Fernap/zorkwallet/wallet/txauthor v0.23.5
+	github.com/Barbazzo-Fernap/zorkwallet/wallet/txrules v0.23.5
+	github.com/Barbazzo-Fernap/zorkwallet/wallet/txsizes v0.23.5
+	github.com/Barbazzo-Fernap/zorkwallet/walletdb v0.23.5
+	github.com/Barbazzo-Fernap/zorkwallet/wtxmgr v1.5.0
 	github.com/ltcsuite/neutrino v0.16.0
 	github.com/ltcsuite/neutrino/cache v1.1.1
 	github.com/stretchr/testify v1.8.2
@@ -52,7 +52,7 @@ require (
 
 go 1.18
 
-replace github.com/ltcsuite/ltcwallet/walletdb => ./walletdb
+replace github.com/Barbazzo-Fernap/zorkwallet/walletdb => ./walletdb
 
 replace github.com/ltcsuite/neutrino => ../neutrino
 
@@ -60,14 +60,14 @@ replace github.com/ltcsuite/neutrino/cache => ../neutrino/cache
 
 replace github.com/ltcsuite/lnd/tlv => ../lnd/tlv
 
-replace github.com/ltcsuite/ltcd/ltcutil/psbt => ../ltcd/ltcutil/psbt
+replace github.com/ZorkNetwork/zorkd/ltcutil/psbt => ../ltcd/ltcutil/psbt
 
-replace github.com/ltcsuite/ltcwallet/wallet/txauthor => ./wallet/txauthor
+replace github.com/Barbazzo-Fernap/zorkwallet/wallet/txauthor => ./wallet/txauthor
 
-replace github.com/ltcsuite/ltcwallet/wallet/txsizes => ./wallet/txsizes
+replace github.com/Barbazzo-Fernap/zorkwallet/wallet/txsizes => ./wallet/txsizes
 
 // loshy temp:
 
-replace github.com/ltcsuite/ltcd => ../ltcd
+replace github.com/ZorkNetwork/zorkd => ../ltcd
 
-replace github.com/ltcsuite/ltcd/chaincfg/chainhash => ../ltcd/chaincfg/chainhash
+replace github.com/ZorkNetwork/zorkd/chaincfg/chainhash => ../ltcd/chaincfg/chainhash

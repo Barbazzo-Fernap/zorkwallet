@@ -76,16 +76,16 @@ github.com/ltcsuite/lnd/queue v1.1.0/go.mod h1:DJrxK2gPC2FjJAVYxPOcnY2CplI3rhL2P
 github.com/ltcsuite/lnd/ticker v1.0.1/go.mod h1:WZKpekfDVAVv7Gsrr0GAWC/U1XURfGesFg9sQYJbeL4=
 github.com/ltcsuite/lnd/ticker v1.1.0 h1:3zYM/JlKNqq+DotW8jiEdHVeY5Yl7n7cUb2bTof1yXM=
 github.com/ltcsuite/lnd/ticker v1.1.0/go.mod h1:K2qQ3EPe8enztYvn/VAbLafCPy13XHMuCRPsySoAbt8=
-github.com/ltcsuite/ltcd/btcec/v2 v2.1.0/go.mod h1:Vc9ZYXMcl5D6bA0VwMvGRDJYggO3YZ7/BuIri02Lq0E=
-github.com/ltcsuite/ltcd/btcec/v2 v2.3.2 h1:HVArUNQGqGaSSoyYkk9qGht74U0/uNhS0n7jV9rkmno=
-github.com/ltcsuite/ltcd/btcec/v2 v2.3.2/go.mod h1:T1t5TjbjPnryvlGQ+RpSKGuU8KhjNN7rS5+IznPj1VM=
-github.com/ltcsuite/ltcd/ltcutil v1.1.0/go.mod h1:VbZlcopVgQteiCC5KRjIuxXH5wi1CtzhsvoYZ3K7FaE=
-github.com/ltcsuite/ltcd/ltcutil v1.1.3 h1:8AapjCPLIt/wtYe6Odfk1EC2y9mcbpgjyxyCoNjAkFI=
-github.com/ltcsuite/ltcd/ltcutil v1.1.3/go.mod h1:z8txd/ohBFrOMBUT70K8iZvHJD/Vc3gzx+6BP6cBxQw=
-github.com/ltcsuite/ltcwallet/wallet/txrules v1.2.0 h1:P6H9zsMpBBuGOsp9lnil7XfPaPujDqrbcmkqvDdiSiI=
-github.com/ltcsuite/ltcwallet/wallet/txrules v1.2.0/go.mod h1:lmA2Ozxvbr2M8Mqb6ugOv5/FQT6x2Qnwg3yT/NiWEks=
-github.com/ltcsuite/ltcwallet/wtxmgr v1.5.0 h1:5pM7L26/OzJMcwQqGwGKIZvPIBt1Er4Ve9Ymc9KK6gc=
-github.com/ltcsuite/ltcwallet/wtxmgr v1.5.0/go.mod h1:jAnztxV6d2JykUlGLCO5yNvtosmFaGMshBx0kps+K+M=
+github.com/ZorkNetwork/zorkd/btcec 
+github.com/ZorkNetwork/zorkd/btcec 
+github.com/ZorkNetwork/zorkd/btcec 
+github.com/ZorkNetwork/zorkd/ltcutil v1.1.0/go.mod h1:VbZlcopVgQteiCC5KRjIuxXH5wi1CtzhsvoYZ3K7FaE=
+github.com/ZorkNetwork/zorkd/ltcutil v1.1.3 h1:8AapjCPLIt/wtYe6Odfk1EC2y9mcbpgjyxyCoNjAkFI=
+github.com/ZorkNetwork/zorkd/ltcutil v1.1.3/go.mod h1:z8txd/ohBFrOMBUT70K8iZvHJD/Vc3gzx+6BP6cBxQw=
+github.com/Barbazzo-Fernap/zorkwallet/wallet/txrules v1.2.0 h1:P6H9zsMpBBuGOsp9lnil7XfPaPujDqrbcmkqvDdiSiI=
+github.com/Barbazzo-Fernap/zorkwallet/wallet/txrules v1.2.0/go.mod h1:lmA2Ozxvbr2M8Mqb6ugOv5/FQT6x2Qnwg3yT/NiWEks=
+github.com/Barbazzo-Fernap/zorkwallet/wtxmgr v1.5.0 
+github.com/Barbazzo-Fernap/zorkwallet/wtxmgr v1.5.0/go.mod h1:jAnztxV6d2JykUlGLCO5yNvtosmFaGMshBx0kps+K+M=
 github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI8A=
 github.com/nxadm/tail v1.4.8/go.mod h1:+ncqLTQzXmGhMZNUePPaPqPvBxHAIsmXswZKocGu+AU=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=

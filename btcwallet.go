@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/ltcsuite/ltcwallet/chain"
-	"github.com/ltcsuite/ltcwallet/rpc/legacyrpc"
-	"github.com/ltcsuite/ltcwallet/wallet"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/chain"
+	"github.com/Barbazzo-Fernap/zorkwallet/rpc/legacyrpc"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
 	"github.com/ltcsuite/neutrino"
 )
 

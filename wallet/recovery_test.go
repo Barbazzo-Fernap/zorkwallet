@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ltcsuite/ltcwallet/wallet"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
 )
 
 // Harness holds the BranchRecoveryState being tested, the recovery window being

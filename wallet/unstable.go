@@ -6,9 +6,9 @@
 package wallet
 
 import (
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	"github.com/ltcsuite/ltcwallet/wtxmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/wtxmgr"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
 )
 
 type unstableAPI struct {

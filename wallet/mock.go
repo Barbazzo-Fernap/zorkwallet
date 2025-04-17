@@ -3,11 +3,11 @@ package wallet
 import (
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/chain"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/chain"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 type mockChainClient struct {

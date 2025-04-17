@@ -3,12 +3,12 @@ package chain
 import (
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/rpcclient"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/wtxmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/wtxmgr"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/rpcclient"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // isCurrentDelta is the delta duration we'll use from the present time to

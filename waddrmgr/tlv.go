@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/ZorkNetwork/zorkd/btcec/schnorr"
+	"github.com/ZorkNetwork/zorkd/txscript"
 	"github.com/ltcsuite/lnd/tlv"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/txscript"
 )
 
 const (

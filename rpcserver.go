@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcwallet/rpc/legacyrpc"
-	"github.com/ltcsuite/ltcwallet/rpc/rpcserver"
-	"github.com/ltcsuite/ltcwallet/wallet"
+	"github.com/Barbazzo-Fernap/zorkwallet/rpc/legacyrpc"
+	"github.com/Barbazzo-Fernap/zorkwallet/rpc/rpcserver"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

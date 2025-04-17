@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/ecdsa"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcwallet/internal/zero"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/zero"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/ZorkNetwork/zorkd/btcec"
+	"github.com/ZorkNetwork/zorkd/btcec/ecdsa"
+	"github.com/ZorkNetwork/zorkd/btcec/schnorr"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
+	"github.com/ZorkNetwork/zorkd/txscript"
 )
 
 var (

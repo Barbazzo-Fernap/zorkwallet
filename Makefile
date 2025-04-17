@@ -1,4 +1,4 @@
-PKG := github.com/ltcsuite/ltcwallet
+PKG := github.com/Barbazzo-Fernap/zorkwallet
 
 LINT_PKG := github.com/golangci/golangci-lint/cmd/golangci-lint
 GOACC_PKG := github.com/ory/go-acc

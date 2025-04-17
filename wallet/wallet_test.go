@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	"github.com/ltcsuite/ltcwallet/wtxmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/wtxmgr"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
 )
 
 var (

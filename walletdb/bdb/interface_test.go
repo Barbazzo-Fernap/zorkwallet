@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ltcsuite/ltcwallet/walletdb/walletdbtest"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb/walletdbtest"
 )
 
 // TestInterface performs all interfaces tests for this database driver.

@@ -29,7 +29,7 @@ encryption will extend to transactions as well.
 ltcwallet is not an SPV client and requires connecting to a local or
 remote ltcd instance for asynchronous blockchain queries and
 notifications over websockets. Full ltcd installation instructions
-can be found [here](https://github.com/ltcsuite/ltcd). An alternative
+can be found [here](https://github.com/ZorkNetwork/zorkd). An alternative
 SPV mode that is compatible with ltcd and Litecoin Core is planned for
 a future release.
 
@@ -63,9 +63,9 @@ Wallet clients can use one of two RPC servers:
 
 Install the latest MSIs available here:
 
-https://github.com/ltcsuite/ltcd/releases
+https://github.com/ZorkNetwork/zorkd/releases
 
-https://github.com/ltcsuite/ltcwallet/releases
+https://github.com/Barbazzo-Fernap/zorkwallet/releases
 
 ### Windows/Linux/BSD/POSIX - Build from source
 
@@ -87,7 +87,7 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain ltcwallet, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/ltcsuite/ltcwallet
+$ cd $GOPATH/src/github.com/Barbazzo-Fernap/zorkwallet
 $ GO111MODULE=on go install -v . ./cmd/...
 ```
 
@@ -106,7 +106,7 @@ Install a newer MSI
 - Run the following commands to update ltcd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/ltcsuite/ltcwallet
+$ cd $GOPATH/src/github.com/Barbazzo-Fernap/zorkwallet
 $ git pull
 $ GO111MODULE=on go install -v . ./cmd/...
 ```
@@ -160,15 +160,15 @@ PS> $editor $env:LOCALAPPDATA\ltcwallet\ltcwallet.conf
 Linux/BSD/POSIX (Installed from source):
 
 ```bash
-$ cp $GOPATH/src/github.com/ltcsuite/ltcd/sample-ltcd.conf ~/.ltcd/ltcd.conf
-$ cp $GOPATH/src/github.com/ltcsuite/ltcwallet/sample-ltcwallet.conf ~/.ltcwallet/ltcwallet.conf
+$ cp $GOPATH/src/github.com/ZorkNetwork/zorkd/sample-ltcd.conf ~/.ltcd/ltcd.conf
+$ cp $GOPATH/src/github.com/Barbazzo-Fernap/zorkwallet/sample-ltcwallet.conf ~/.ltcwallet/ltcwallet.conf
 $ $EDITOR ~/.ltcd/ltcd.conf
 $ $EDITOR ~/.ltcwallet/ltcwallet.conf
 ```
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/ltcsuite/ltcwallet/issues)
+The [integrated github issue tracker](https://github.com/Barbazzo-Fernap/zorkwallet/issues)
 is used for this project.
 
 ## GPG Verification Key

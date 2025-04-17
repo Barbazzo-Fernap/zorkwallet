@@ -10,15 +10,15 @@ import (
 	"math/rand"
 	"sort"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/wallet/txauthor"
-	"github.com/ltcsuite/ltcwallet/wallet/txsizes"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	"github.com/ltcsuite/ltcwallet/wtxmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txauthor"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txsizes"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/wtxmgr"
+	"github.com/ZorkNetwork/zorkd/btcec"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // byAmount defines the methods needed to satisify sort.Interface to

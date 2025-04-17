@@ -5,10 +5,10 @@
 package wallet
 
 import (
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb/migration"
+	"github.com/Barbazzo-Fernap/zorkwallet/wtxmgr"
 	"github.com/btcsuite/btclog"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/walletdb/migration"
-	"github.com/ltcsuite/ltcwallet/wtxmgr"
 )
 
 // log is a logger that is initialized with no output filters.  This

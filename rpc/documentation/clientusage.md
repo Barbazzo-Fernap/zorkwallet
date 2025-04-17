@@ -52,12 +52,12 @@ import (
 	"fmt"
 	"path/filepath"
 
-	pb "github.com/ltcsuite/ltcwallet/rpc/walletrpc"
+	pb "github.com/Barbazzo-Fernap/zorkwallet/rpc/walletrpc"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
 )
 
 var certificateFile = filepath.Join(ltcutil.AppDataDir("ltcwallet", false), "rpc.cert")

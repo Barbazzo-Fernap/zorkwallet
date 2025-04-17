@@ -3,9 +3,9 @@ package waddrmgr
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/txscript"
+	"github.com/ZorkNetwork/zorkd/btcec"
+	"github.com/ZorkNetwork/zorkd/btcec/schnorr"
+	"github.com/ZorkNetwork/zorkd/txscript"
 	"github.com/stretchr/testify/require"
 )
 

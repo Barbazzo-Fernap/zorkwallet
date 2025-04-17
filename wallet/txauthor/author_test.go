@@ -7,10 +7,10 @@ package txauthor
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/wallet/txrules"
-	"github.com/ltcsuite/ltcwallet/wallet/txsizes"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txrules"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet/txsizes"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 func p2pkhOutputs(amounts ...ltcutil.Amount) []*wire.TxOut {

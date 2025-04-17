@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/lightninglabs/gozmq"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/rpcclient"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/rpcclient"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // ZMQConfig holds all the config values needed to set up a ZMQ connection to

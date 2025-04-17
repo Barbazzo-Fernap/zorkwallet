@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/blockchain"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // setupConnPair initiates a tcp connection between two peers.
@@ -83,7 +83,7 @@ func setupConnPair() (net.Conn, net.Conn, error) {
 //
 // This function was copied from:
 //
-//	https://github.com/ltcsuite/ltcd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L303
+//	https://github.com/ZorkNetwork/zorkd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L303
 func calcMerkleRoot(txns []*wire.MsgTx) chainhash.Hash {
 	if len(txns) == 0 {
 		return chainhash.Hash{}
@@ -104,7 +104,7 @@ func calcMerkleRoot(txns []*wire.MsgTx) chainhash.Hash {
 //
 // This function was copied from:
 //
-//	https://github.com/ltcsuite/ltcd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L324
+//	https://github.com/ZorkNetwork/zorkd/blob/36a96f6a0025b6aeaebe4106821c2d46ee4be8d4/blockchain/fullblocktests/generate.go#L324
 func solveBlock(header *wire.BlockHeader) bool {
 	// sbResult is used by the solver goroutines to send results.
 	type sbResult struct {

@@ -11,15 +11,15 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/internal/legacy/keystore"
-	"github.com/ltcsuite/ltcwallet/internal/prompt"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/wallet"
-	"github.com/ltcsuite/ltcwallet/walletdb"
-	_ "github.com/ltcsuite/ltcwallet/walletdb/bdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/legacy/keystore"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/prompt"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	_ "github.com/Barbazzo-Fernap/zorkwallet/walletdb/bdb"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
 )
 
 // AmountFlag embeds a ltcutil.Amount and implements the flags.Marshaler and

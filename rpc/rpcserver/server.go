@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//	https://github.com/ltcsuite/ltcwallet/blob/master/rpc/documentation/api.md
+//	https://github.com/Barbazzo-Fernap/zorkwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//	https://github.com/ltcsuite/ltcwallet/blob/master/rpc/documentation/serverchanges.md
+//	https://github.com/Barbazzo-Fernap/zorkwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -26,20 +26,20 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
-	"github.com/ltcsuite/ltcd/rpcclient"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcwallet/chain"
-	"github.com/ltcsuite/ltcwallet/internal/cfgutil"
-	"github.com/ltcsuite/ltcwallet/internal/zero"
-	"github.com/ltcsuite/ltcwallet/netparams"
-	pb "github.com/ltcsuite/ltcwallet/rpc/walletrpc"
-	"github.com/ltcsuite/ltcwallet/waddrmgr"
-	"github.com/ltcsuite/ltcwallet/wallet"
-	"github.com/ltcsuite/ltcwallet/walletdb"
+	"github.com/Barbazzo-Fernap/zorkwallet/chain"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/cfgutil"
+	"github.com/Barbazzo-Fernap/zorkwallet/internal/zero"
+	"github.com/Barbazzo-Fernap/zorkwallet/netparams"
+	pb "github.com/Barbazzo-Fernap/zorkwallet/rpc/walletrpc"
+	"github.com/Barbazzo-Fernap/zorkwallet/waddrmgr"
+	"github.com/Barbazzo-Fernap/zorkwallet/wallet"
+	"github.com/Barbazzo-Fernap/zorkwallet/walletdb"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil/hdkeychain"
+	"github.com/ZorkNetwork/zorkd/rpcclient"
+	"github.com/ZorkNetwork/zorkd/txscript"
+	"github.com/ZorkNetwork/zorkd/wire"
 )
 
 // Public API version constants

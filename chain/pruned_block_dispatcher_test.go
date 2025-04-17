@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/ltcsuite/lnd/ticker"
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/peer"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/btcjson"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/peer"
+	"github.com/ZorkNetwork/zorkd/wire"
 	"github.com/stretchr/testify/require"
 )
 

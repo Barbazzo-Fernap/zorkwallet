@@ -1,11 +1,11 @@
 package chain
 
 import (
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/gcs"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/ZorkNetwork/zorkd/chaincfg"
+	"github.com/ZorkNetwork/zorkd/chaincfg/chainhash"
+	"github.com/ZorkNetwork/zorkd/ltcutil"
+	"github.com/ZorkNetwork/zorkd/ltcutil/gcs"
+	"github.com/ZorkNetwork/zorkd/wire"
 	"github.com/ltcsuite/neutrino"
 	"github.com/ltcsuite/neutrino/banman"
 	"github.com/ltcsuite/neutrino/headerfs"
